@@ -10,6 +10,14 @@
     <header>
         <img src="banner.jpg" alt="Banner de Productos Destacados" class="banner">
         <nav>
+            <section class="filtros">
+                <input type="text" placeholder="Buscar productos...">
+                <select>
+                    <option value="categoria1"> Computadores</option>
+                    <option value="categoria2">Celulares</option>
+                    <option value="categoria3">Consolas de videojuego</option>
+                </select>
+            </section>
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
@@ -18,28 +26,33 @@
         </nav>
     </header>
     <main>
-        <section class="filtros">
-            <input type="text" placeholder="Buscar productos...">
-            <select>
-                <option value="categoria1">Categoría 1</option>
-                <option value="categoria2">Categoría 2</option>
-                <option value="categoria3">Categoría 3</option>
-            </select>
-        </section>
+        
+
         <section class="productos">
             <div class="producto">
                 <img src="producto1.jpg" alt="Producto 1">
-                <h2>Producto 1</h2>
-                <p>$10.00</p>
-                <a href="detalle.html">Ver más</a>
+                <h2>Notebook 9 Pro Samsung</h2>
+                <p>$3,200,000</p>
+                <a href="product_detail.html">Ver más</a>
             </div>
             <div class="producto">
                 <img src="producto2.jpg" alt="Producto 2">
-                <h2>Producto 2</h2>
-                <p>$20.00</p>
+                <h2> Samsung Galaxy A54</h2>
+                <p>$470,000</p>
                 <a href="detalle.html">Ver más</a>
             </div>
-            <!-- Agrega más productos aquí -->
+            <div class="producto">
+                <img src="producto3.jpg" alt="Producto 3">
+                <h2> Play Station 4 </h2>
+                <p>$2,500,000</p>
+                <a href="detalle.html">Ver más</a>
+            </div>
+            <div class="producto">
+                <img src="producto4.jpg" alt="Producto 4">
+                <h2> Videojuego Call of Duty Modern Warfare</h2>
+                <p>$320,000</p>
+                <a href="detalle.html">Ver más</a>
+            </div>
         </section>
     </main>
 </body>

@@ -5,42 +5,61 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #07063b;
     color: white;
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
+    width: auto;
+    height: auto;
 }
 
 .banner {
     width: 100%;
     height: auto;
-}
+    max-height: 300px; /* Ajusta este valor según el espacio que desees */
+    object-fit: cover; /* Asegura que la imagen cubra el área del banner sin distorsionarse */
+    }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+    nav {
+        background-color: #021120; /* Azul oscuro */
+        width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho de la página */
+        padding: 0; /* Espaciado vertical */
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Centra los elementos de la barra de navegación */
+    }
+    
+    nav ul li {
+        margin: 0 30px; /* Espaciado horizontal entre los elementos */
+        text-align:left;
+    }
+    
+    nav ul li a {
+        color: white; /* Color del texto */
+        text-decoration: none; /* Quita el subrayado de los enlaces */
+        font-size: 1.2em; /* Tamaño del texto */
+    }
+    
 
 .filtros {
-    padding: 20px;
-    text-align: center;
+    margin-top: 8px ;
+    padding: 0 30px;
+    text-align: right;
+    width: auto;
+    height: auto;
 }
 
 .productos {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 50px;
 }
 
 .producto {
@@ -67,11 +86,17 @@ nav ul li a {
 }
 
 .producto a {
-    background-color: #333;
+    background-color: #2206c2;
     color: white;
     display: inline-block;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+
+.placeholder { 
+
+    text-align: center;
 }

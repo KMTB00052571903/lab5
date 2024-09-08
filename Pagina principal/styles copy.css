@@ -1,0 +1,84 @@
+
+
+
+header {
+    background-color: #07063b;
+    padding: 0 10px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+ul {
+background-color: #07063b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+
+nav ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    font-size: 1.2em; /* Tamaño del texto */
+
+}
+
+.detalle-producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imagen-detalle {
+    width: auto;
+    margin: 20px;
+}
+
+.info-producto {
+    max-width: 600px;
+    margin: 20px;
+}
+
+.info-producto h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info-producto .descripcion {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.info-producto .precio {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.acciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+        
+    }
+
+.acciones button {
+    background-color: #0a1dca;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.acciones .volver {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+}
